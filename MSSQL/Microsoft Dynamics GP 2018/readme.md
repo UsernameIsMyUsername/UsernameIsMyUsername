@@ -9,7 +9,8 @@ A bit of backstory. The way Dynamics GP works, is a user on the front end create
  1. Have the front end users delete their reports. The issue with this is, users can have 100's or even 1000's of reports.
  Deleting multiple reports can lock up and even crash the system depending how many users you have using the box, the power of the box,
  how much data these reports contain. Also you will have to ask yourself if management would want these users using their time deleting these 
- reports 1 by 1.
+ reports 1 by 1
+
 
  2. You go into the backend and manually delete the data from the tables themselves. 
 
