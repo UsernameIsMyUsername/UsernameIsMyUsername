@@ -1,4 +1,4 @@
-The different code files in here, will help and support clean up of the ManagementReporter Database of Microsoft Dynamics GP 2018. 
+The different code files in here, will help and support clean up of the ManagementReporter Database of Microsoft Dynamics GP 2018 (ON PREM). 
 
 
 A bit of backstory. The way Dynamics GP works, is a user on the front end creates a report. 
