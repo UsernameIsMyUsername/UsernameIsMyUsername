@@ -10,7 +10,13 @@ A bit of backstory. The way Dynamics GP works, is a user on the front end create
 
 For the purposes of the following queries of course we will be going with option 2. 
 
-What each files does
+What each files does:
+
+0_HowMuchDataIsOutThere.sql
+(WORK IN PROGRESS)
+A couple of queries to show how much data you have out there. (Please note, some of the queries may take sometime to run 5-10+ minutes, depending on how powerful your box is.)
+
+
 1_CreateMetadataTables.sql
 This file creates both the Database that you will store the metadata in and the tables.
 The two tables will hold the:
