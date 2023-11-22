@@ -103,6 +103,7 @@ INNER JOIN reporting.Repository RE
 ON 
 RRL.RepositoryID = RE.ID
 WHERE RE.CreateDate < '2023-01-01' --Change this to whatever you want
+AND RE.StatusType=0
 
 
 
@@ -125,3 +126,4 @@ INNER JOIN reporting.Repository RE
 ON 
 RRL.RepositoryID = RE.ID
 WHERE RE.CreateDate < '2023-01-01' --Change this to whatever you want
+AND RE.StatusType=0
