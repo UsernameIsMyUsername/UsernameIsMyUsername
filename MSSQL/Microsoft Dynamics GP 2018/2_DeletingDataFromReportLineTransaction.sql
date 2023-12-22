@@ -30,7 +30,7 @@ COMMIT TRAN
 -- Delete Top (#). I used this because depending on how your system is setup the delete will create a transactions and that could error out if your log drive is not big enough. So I usually used 
 -- Top 50 Million. This did not error out. Though it really depends on your system and how it is installed. Maybe for you 50 Million will error due to log file fill up. So then go to 30 Million 
 --Keep going until it runs successfully then run it as many times as Number of Rows from the count/the top number you did that run succesfully rounded up. You can also run a delete statement
---Then once you recieve (0) rows affected, you know you are dont
+--Then once you recieve (0) rows affected, you know you are done
 Begin TRAN
 delete top(50000000)
 from 
