@@ -40,4 +40,5 @@ Reportid in (Select id from DeleteMetadata.dbo.ReportID where CreateDate='01-202
 COMMIT TRAN
 
 
-----I still have more code to come to clean up more metadata. This will be a good point to free up space, because this is the big table in the database. 
+-- I still have more code to come to clean up more metadata. This code will be a good place to start so you can free up space. This is usually the biggest table. After deleting data from 2018-2021 
+-- I got back 600GB on the server
