@@ -15,6 +15,8 @@ A bit of backstory. The way Dynamics GP works, is a user on the front end create
 
 For the purposes of the following queries of course we will be going with option 2. 
 
+As you start going down the code below you row counts will go down at each section. ReportLineTransaction have the most data and repository being the smallest. 
+
 What each files does:
 
 0_HowMuchDataIsOutThere.sql
