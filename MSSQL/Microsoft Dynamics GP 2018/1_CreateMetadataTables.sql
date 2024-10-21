@@ -90,7 +90,7 @@ SELECT R.ID,
 FORMAT(re.CreateDate, 'MM-yyyy') AS CreateDate 
 
 
---Create DB needs to be run for this section to work
+----Create DB needs to be run for this section to work
 --INTO 
 --MetaData_Temp.dbo.ReportID
 
@@ -102,7 +102,7 @@ R.ID = RRL.ReportID
 INNER JOIN reporting.Repository RE
 ON 
 RRL.RepositoryID = RE.ID
-WHERE RE.CreateDate < '2023-01-01' --Change this to whatever you want
+WHERE RE.CreateDate < '2023-01-01' ----Change this to whatever you want
 AND RE.StatusType=0
 
 
@@ -112,7 +112,7 @@ AND RE.StatusType=0
 SELECT RE.ID, 
 FORMAT(re.CreateDate, 'MM-yyyy') AS CreateDate 
 
---You will need to have run, the create code above for this part to work.
+----You will need to have run, the create code above for this part to work.
 --INTO 
 --MetaData_Temp.dbo.RepositoryID  --You can also change this table to whatever you want. 
 
@@ -125,5 +125,5 @@ R.ID = RRL.ReportID
 INNER JOIN reporting.Repository RE
 ON 
 RRL.RepositoryID = RE.ID
-WHERE RE.CreateDate < '2023-01-01' --Change this to whatever you want
+WHERE RE.CreateDate < '2023-01-01' ----Change this to whatever you want
 AND RE.StatusType=0
