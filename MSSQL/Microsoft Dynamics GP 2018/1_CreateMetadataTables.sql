@@ -109,7 +109,7 @@ AND RE.StatusType=0
 
 
 --This is the Repository Query
-SELECT R.ID, 
+SELECT RE.ID, 
 FORMAT(re.CreateDate, 'MM-yyyy') AS CreateDate 
 
 --You will need to have run, the create code above for this part to work.
